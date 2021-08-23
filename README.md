@@ -35,8 +35,7 @@
   docker attach {Container ID or Name}
 ```
 
-## When Image is not in the local,
-## download Image and run directly.
+## When Image is not in the local, download Image and run directly.
 ```
   docker run {Image-name}:{tag}
   # EX: docker -it run python:3
